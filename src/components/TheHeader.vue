@@ -112,9 +112,8 @@ export default  {
         </div>
     </div>
 
-    <div id="myFixedElement"><i class="fa-solid fa-cart-shopping"></i></div>
-
-
+    <img src="../assets/svg/svg-7.svg" alt="" id="myFixedElement2">
+    <img src="../assets/svg/svg-6.svg" alt="" id="myFixedElement">
 
 </template>
 
@@ -138,19 +137,16 @@ export default  {
     width: 200px;
 }
 
-/* Visualizza il sottomenu quando l'elemento principale è in hover */
 .menu-item:hover .sub-menu {
     display: block;
 }
 
-/* Stile dei link */
 a {
     text-decoration: none;
     color: #333;
     list-style: none;
 }
 
-/* Stile dei link nei sottomenu */
 .sub-menu ul li {
     display: block;
     padding: 10px;
@@ -160,10 +156,17 @@ a {
     top: 200px; 
     right: 10px; 
     background-color: #fff;
-    border: 1px solid #ccc;
     padding: 10px;
-    color: #ee2852;
     z-index: 1;
+    width: 50px;
 }
-
+#myFixedElement2 {
+    position: fixed;
+    top: 150px; 
+    right: 10px; 
+    background-color: white;
+    padding: 10px;
+    z-index: 1;
+    width: 50px;
+}
 </style>

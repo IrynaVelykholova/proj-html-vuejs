@@ -13,48 +13,48 @@ export default {
         <div class="immagine-container col-4">
             <img src="../assets/img/h-2-port-img-1.jpg" alt="Immagine 1">
             <div class="scritta">
-                <div>All these illustration</div>
-                <div>Illustration</div>
+                <h3>All these illustration</h3>
+                <p>Illustration</p>
             </div>
         </div>
         
         <div class="immagine-container col-4">
             <img src="../assets/img/h-2-port-img-2.jpg" alt="Immagine 2">
             <div class="scritta">
-                <div>Type and illustrations</div>
-                <div>Illustration</div>
+                <h3>Type and illustrations</h3>
+                <p>Illustration</p>
             </div>
         </div>
         
         <div class="immagine-container col-4">
             <img src="../assets/img/h-2-port-img-3.jpg" alt="Immagine 3">
             <div class="scritta">
-                <div>Draw and illustrate</div>
-                <div>Illustration</div>
+                <h3>Draw and illustrate</h3>
+                <p>Illustration</p>
             </div>
         </div>
 
         <div class="immagine-container col-4">
             <img src="../assets/img/h-2-port-img-4.jpg" alt="Immagine 3">
             <div class="scritta">
-                <div>Illustrations of novels</div>
-                <div>Illustration</div>
+                <h3>Illustrations of novels</h3>
+                <p>Illustration</p>
             </div>
         </div>
 
         <div class="immagine-container col-4">
             <img src="../assets/img/h-2-port-img-5.jpg" alt="Immagine 3">
             <div class="scritta">
-                <div>Too many illustrations</div>
-                <div>Illustration</div>
+                <h3>Too many illustrations</h3>
+                <p>Illustration</p>
             </div>
         </div>
 
         <div class="immagine-container col-4">
             <img src="../assets/img/h-2-port-img-6.jpg" alt="Immagine 3">
             <div class="scritta">
-                <div>Dreams are illustrations</div>
-                <div>Illustration</div>
+                <h3>Dreams are illustrations</h3>
+                <p>Illustration</p>
             </div>
         </div>
     </div>
@@ -84,18 +84,20 @@ export default {
 }
 
 .scritta {
-    position: absolute; /* Posiziona la scritta sopra l'immagine */
-    top: 50%;
+    position: absolute; 
+    top: 45%;
     background-color: white;
-    text-align: center;
     padding: 10px;
-    opacity: 0; /* Inizialmente, la scritta è nascosta */
-    transition: opacity 0.3s; /* Aggiunge una transizione per l'opacità */
+    opacity: 0; 
+    transition: opacity 0.5s; 
+    padding: 1rem 2rem;
 }
 
-/* Mostra la scritta su hover */
 .immagine-container:hover .scritta {
-    opacity: 1; /* Mostra la scritta quando passi il mouse sopra il contenitore */
+    opacity: 1; 
+}
+.scritta p {
+    font-style: italic;
 }
 
 
